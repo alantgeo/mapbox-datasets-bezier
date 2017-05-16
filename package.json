@@ -1,0 +1,23 @@
+{
+  "name": "mapbox-datasets-bezier",
+  "version": "1.0.0",
+  "description": "Convert a Mapbox Dataset into a Mapbox Tileset with LineStrings converted to smooth bezier curves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "mapbox-datasets-bezier": "./index.js"
+  },
+  "repository": "alantgeo/mapbox-datasets-bezier",
+  "author": "Andrew Harvey <andrew@alantgeo.com.au>",
+  "license": "ISC",
+  "dependencies": {
+    "mapbox": "^1.0.0-beta7",
+    "mapbox-upload": "^4.2.4",
+    "minimist": "^1.2.0",
+    "mktemp": "^0.4.0",
+    "randomstring": "^1.1.5",
+    "turf-bezier": "^3.0.12"
+  }
+}
